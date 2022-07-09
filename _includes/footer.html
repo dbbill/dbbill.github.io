@@ -1,26 +1,28 @@
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-12 icon">
-                <a href="https://www.begambleaware.org/">
-                    <img src="assets/img/logos/BeGambleAware.svg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-12 icon">
-                <a href="#">
-                    <img src="assets/img/logos/18.svg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-12 icon">
-                <a href="https://www.gamcare.org.uk/">
-                    <img src="assets/img/logos/GamCareHelpline.svg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
+        <div class="row justify-content-center">
+            <ul class="list-inline d-sm-flex m-2">
+                <li class="p-3">
+                    <a href="https://www.begambleaware.org/">
+                        <img src="assets/img/logos/BeGambleAware.svg" class="img-responsive img-centered" alt="">
+                    </a>
+                </li>
+                <li class="p-3">
+                    <a href="#">
+                        <img src="assets/img/logos/18.svg" class="img-responsive img-centered" alt="">
+                    </a>
+                </li>
+                <li class="p-3">
+                    <a href="https://www.gamcare.org.uk/">
+                        <img src="assets/img/logos/GamCareHelpline.svg" class="img-responsive img-centered" alt="">
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="row justify-content-center">
             <ul class="list-inline social-buttons">
                 {% for network in site.social %}
-                <li><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
+                <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
                 {% endfor %}
             </ul>
         </div>
