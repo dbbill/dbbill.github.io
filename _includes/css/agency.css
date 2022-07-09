@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+ 
 body {
     overflow-x: hidden;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -216,7 +216,6 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-size: 22px;
     line-height: 12px;
 }
@@ -230,13 +229,12 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
-        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        text-transform: uppercase;
         font-size: 40px;
         line-height: 40px;
     }
@@ -297,8 +295,8 @@ section h3.section-subheading {
 }
 
 footer {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 20px;
+    padding-bottom: 54px;
     text-align: center;
     background-color: #{{ site.data.template.color.primary-dark }};
 }
@@ -309,16 +307,17 @@ footer div.icon {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    margin-top: 40px;
+    margin-bottom: 40px;
     line-height: 40px;
-    margin: 20px;
     font-weight: bold;
 }
 
 footer ul.social-buttons {
-    margin: 20px;
+    margin-top: 8px;
+    margin-bottom: 30px;
 }
 
 ul.social-buttons {
