@@ -3,18 +3,17 @@
 
   {% include head.html %}
 
+  <body id="page-top" class="index">
 
-    <body id="page-top" class="index">
+    <div id="contents">
+      {% include header.html %}
+      {% include team.html %}
+      {% include services.html %}
+    </div>
 
-    {% include header.html %}
-    {% include services.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
-    {% include team.html %}
-    {% include clients.html %}
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
 
-    </body>
+  </body>
+
 </html>
