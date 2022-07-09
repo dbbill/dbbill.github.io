@@ -1,0 +1,371 @@
+---
+---
+$primary: #000555;
+$secondary: #ffd500;
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: $primary;
+}
+
+.text-primary:hover {
+    color: $primary;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+.text-white {
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: $secondary;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: $primary;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: $primary;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: $primary;
+    color: #fff;
+    background-color: $secondary;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: $primary;
+    background-color: $primary;
+}
+
+.btn-primary .badge {
+    color: $primary;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: $primary;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: $primary;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: $primary;
+    color: #fff;
+    background-color: $secondary;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: $primary;
+    background-color: $primary;
+}
+
+.btn-xl .badge {
+    color: $primary ;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-position: center top;
+    background-image: linear-gradient(to bottom, rgba(0, 5, 85, .1), rgba(0, 5, 85, 1)), url('{{ site.baseurl }}/assets/img/header-bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-title {
+    text-align: center;
+    float: none;
+    padding: 32px;
+    font-size: 32px;
+}
+
+header .intro-text {
+    padding-top: 36px;
+    padding-bottom: 24px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 12px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: $secondary;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#stores {
+    padding-bottom: 1rem;
+}
+
+#services {
+    padding-bottom: 2rem;
+}
+
+.store {
+    text-align: center;
+}
+
+.store i {
+    margin: 0 auto;
+}
+
+.store h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-transform: none;
+    color: white;
+}
+
+.store p {
+    margin-top: 0;
+}
+
+#services .attribute {
+    padding-top: 24px;
+}
+
+#services .service-heading {
+    margin-top: 20px;
+}
+
+footer {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #010444;
+}
+
+footer div.icon {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+footer span.copyright {
+    text-transform: none;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+footer ul.social-buttons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    display: flex;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0.25rem;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: $primary;
+    background-color: $secondary;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: white;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: $primary;
+}
+
+::selection {
+    text-shadow: none;
+    background: $primary;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+@import 'bootstrap/bootstrap';
+
+body {
+    overflow-x: hidden;
+    font-family: Arial,sans-serif;
+    color: white;
+    background-color: $primary;
+}
