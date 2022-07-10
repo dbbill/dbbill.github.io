@@ -1,7 +1,17 @@
 <footer>
     <div class="container">
+        <div class="row justify-content-center p-2">
+            <span class="email font-weight-bold">info@whissol.com</span>
+        </div>
+        <div class="row justify-content-center p-2">
+            <ul class="list-inline social-buttons">
+                {% for network in site.social %}
+                <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
         <div class="row justify-content-center">
-            <ul class="list-inline d-sm-flex m-2">
+            <ul class="list-inline d-sm-flex m-0">
                 <li class="p-3">
                     <a href="https://www.begambleaware.org/">
                         <img src="assets/img/logos/BeGambleAware.svg" class="img-responsive img-centered" alt="">
@@ -20,14 +30,7 @@
             </ul>
         </div>
         <div class="row justify-content-center">
-            <ul class="list-inline social-buttons">
-                {% for network in site.social %}
-                <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="row justify-content-center">
-            <span class="copyright">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
+            <span class="copyright font-weight-bold">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
         </div>
     </div>
 </footer>

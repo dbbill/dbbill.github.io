@@ -230,10 +230,14 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 60px;
     }
+}
+
+section {
+    background-color: $primary;
 }
 
 section h2.section-heading {
@@ -294,13 +298,7 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: none;
     line-height: 40px;
-    font-weight: bold;
-}
-
-footer ul.social-buttons {
-    margin-bottom: 0.75rem;
 }
 
 ul.social-buttons {
@@ -309,7 +307,9 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     margin: 0.25rem;
@@ -361,5 +361,5 @@ body {
     overflow-x: hidden;
     font-family: Arial,sans-serif;
     color: white;
-    background-color: $primary;
+    background-color: #010444;
 }
