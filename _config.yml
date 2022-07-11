@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+url: https://dbbill.github.io
 baseurl: ""
 
 # Site settings
@@ -6,48 +6,12 @@ title: Whissol
 email: info@whissol.com
 description: ""
 
-
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: google-play
-      url: #
-    - title: app-store
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames
 social:
   - title: twitter
-    url:
+    url: https://twitter.com/whissol_
   - title: facebook
-    url:
+    url: #
 
 # Build settings
 markdown: kramdown
