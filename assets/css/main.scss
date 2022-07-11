@@ -23,45 +23,6 @@ $secondary: #ffd500;
     color: white;
 }
 
-p {
-    font-size: 14px;
-    line-height: 1.75;
-}
-
-p.large {
-    font-size: 16px;
-}
-
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: $secondary;
-    text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-}
-
 .img-centered {
     margin: 0 auto;
 }
@@ -363,4 +324,43 @@ body {
     font-family: Arial,sans-serif;
     color: white;
     background-color: #010444;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: $secondary;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
 }
