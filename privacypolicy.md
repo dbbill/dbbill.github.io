@@ -61,7 +61,7 @@ layout: default
 
 ### 5.3 Legal or Regulatory Obligations
 
-###### We may need to process your personal data where it is necessary for compliance with a legal or regulatory obligation that we are subject to.
+##### We may need to process your personal data where it is necessary for compliance with a legal or regulatory obligation that we are subject to.
 
 ## 6. Your Legal Rights
 
@@ -101,7 +101,7 @@ layout: default
 
 ### 7.2 Legal Compliance
 
-###### We may disclose your information if required by law, governmental request, or when we believe disclosure is necessary to protect our rights, prevent fraud or illegal activities, or ensure the safety of our users.
+##### We may disclose your information if required by law, governmental request, or when we believe disclosure is necessary to protect our rights, prevent fraud or illegal activities, or ensure the safety of our users.
 
 ### 7.3 Business Transfers
 
