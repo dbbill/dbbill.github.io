@@ -12,7 +12,8 @@ At Whissol, we are committed to protecting your privacy and ensuring the securit
 
 If you have any questions about this Policy, including any requests to exercise your legal rights, please contact us at info@whissol.com.
 
-### 2. Data We Collect
+### 2. Data We Collect  
+
 
 ##### 2.1 Personal Information
 
