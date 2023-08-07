@@ -14,6 +14,7 @@ If you have any questions about this Policy, including any requests to exercise 
 
 ### 2. Data We Collect
 
+
 #### 2.1 Personal Information
 
 We may collect personally identifiable information (PII) such as your name, email address, display name, age, and location when you register an account or voluntarily provide it whilst using our Services, submitting feedback, or during customer support interactions.
@@ -23,6 +24,7 @@ We may collect personally identifiable information (PII) such as your name, emai
 We automatically collect non-personal information about your interaction with our services, including your IP address, device type, operating system, browser type, referring website URLs, pages visited, time spent, and mobile application or website activities. We may use cookies, web beacons, and similar technologies to collect this data.
 
 ### 3. How We Use Your Data
+
 
 #### 3.1 Personal Information
 
