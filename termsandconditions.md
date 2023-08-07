@@ -12,7 +12,7 @@ We recommend that you carefully read and understand these terms and conditions, 
 
 Terms and Conditions Last updated: 14th July 2023
 
-#### 1 General
+#### 1. General
 
 1.1 Please read these terms and conditions ("Terms") carefully before using the website and/or the mobile application ("Services") operated by Whissol Limited (“Whissol, "the Company," "us," "we," or "our").
 
