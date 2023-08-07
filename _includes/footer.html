@@ -1,9 +1,6 @@
 <footer>
     <div class="container">
         <div class="row justify-content-center p-2">
-            <span class="email font-weight-bold">info@whissol.com</span>
-        </div>
-        <div class="row justify-content-center p-2">
             <a class="font-weight-bold" href="/privacypolicy">Privacy Policy</a>
         </div>
         <div class="row justify-content-center p-2">
@@ -15,6 +12,9 @@
                 <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
                 {% endfor %}
             </ul>
+        </div>
+        <div class="row justify-content-center p-2">
+            <span class="email font-weight-bold">info@whissol.com</span>
         </div>
         <div class="row justify-content-center">
             <span class="copyright font-weight-bold">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
