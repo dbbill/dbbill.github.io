@@ -133,3 +133,5 @@ We reserve the right to modify or update this Policy at any time. We will notify
 If you have any questions, concerns, or requests regarding this Policy or our data practices, please contact us at info@whissol.com. We will make reasonable efforts to address your inquiries in a timely manner.
 
 By using our Services, you acknowledge that you have read and understood this Policy and agree to be bound by its terms.
+
+
