@@ -272,16 +272,17 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    margin: 0.25rem;
+    margin-y: 0.25rem;
     color: $secondary;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
     font-size: 1rem;
-    padding-left: 0.5rem;
+    padding-right: 1.25rem;
 
     i {
         font-size: 1.5rem;
@@ -303,13 +304,12 @@ ul.legal li a {
     align-items: center;
     justify-content: center;
     height: 40px;
-    margin: 0.25rem;
-    color: $secondary;
+    margin-y: 0.25rem;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
     font-size: 1rem;
-    padding-left: 0.5rem;
+    padding-right: 1.25rem;
 }
 
 .btn:focus,
