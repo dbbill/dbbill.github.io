@@ -8,9 +8,11 @@ description: ""
 
 # Social networks usernames
 social:
-  - title: twitter
+  - title: Twitter
+    icon: twitter
     url: https://twitter.com/whissol_
-  - title: facebook
+  - title: Facebook
+    icon: facebook
     url: #
 
 # Build settings
