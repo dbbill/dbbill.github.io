@@ -12,7 +12,7 @@ At Whissol, we are committed to protecting your privacy and ensuring the securit
 
 If you have any questions about this Policy, including any requests to exercise your legal rights, please contact us at info@whissol.com.
 
-### 2. Data We Collect\
+### 2. Data We Collect
 
 ##### 2.1 Personal Information
 
@@ -22,7 +22,7 @@ We may collect personally identifiable information (PII) such as your name, emai
 
 We automatically collect non-personal information about your interaction with our services, including your IP address, device type, operating system, browser type, referring website URLs, pages visited, time spent, and mobile application or website activities. We may use cookies, web beacons, and similar technologies to collect this data.
 
-### 3. How We Use Your Data\
+### 3. How We Use Your Data
 
 ##### 3.1 Personal Information
 
@@ -32,7 +32,7 @@ We use your personal information to operate, maintain, and enhance our services,
 
 We utilize usage data for statistical analysis, troubleshooting, improving our services, and delivering targeted advertisements. This data helps us understand user preferences, optimize mobile app and website mechanics, enhance security, and tailor content to better serve you.
 
-### 4. Third-Party Data Sources\
+### 4. Third-Party Data Sources
 
 ##### 4.1 Personal Information Extraction
 
@@ -66,7 +66,7 @@ We may need to use your data to conduct and manage our business to enable us to 
 
 We may need to process your personal data where it is necessary for compliance with a legal or regulatory obligation that we are subject to.
 
-### 6. Your Legal Rights\
+### 6. Your Legal Rights
 
 ##### 6.1 Access and Rectification
 
@@ -96,7 +96,7 @@ If you have concerns about our handling of your personal information or believe 
 
 We will retain your personal information for as long as necessary to fulfil the purposes outlined in this Policy unless a longer retention period is required or permitted by law. We will securely dispose of your personal information once it is no longer needed, in accordance with our data retention practices. In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.
 
-### 7. Information Sharing and Disclosure\
+### 7. Information Sharing and Disclosure
 
 ##### 7.1 Service Providers
 
