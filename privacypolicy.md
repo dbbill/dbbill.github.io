@@ -2,9 +2,9 @@
 layout: legal
 ---
 
-#### Welcome to Whissol Limited’s privacy policy
+Welcome to Whissol Limited’s privacy policy
                 
-## 1. Overview
+### 1. Overview
 
 Whissol Limited is the controller and is responsible for your personal data (collectively referred to as "us," "our," "we," or "Whissol" in this Policy).
 
@@ -12,19 +12,19 @@ At Whissol, we are committed to protecting your privacy and ensuring the securit
 
 If you have any questions about this Policy, including any requests to exercise your legal rights, please contact us at info@whissol.com.
 
-## 2. Data We Collect
+### 2. Data We Collect
 
-### 2.1 Personal Information
+#### 2.1 Personal Information
 
 We may collect personally identifiable information (PII) such as your name, email address, display name, age, and location when you register an account or voluntarily provide it whilst using our Services, submitting feedback, or during customer support interactions.
 
-### 2.2 Usage Information
+#### 2.2 Usage Information
 
 We automatically collect non-personal information about your interaction with our services, including your IP address, device type, operating system, browser type, referring website URLs, pages visited, time spent, and mobile application or website activities. We may use cookies, web beacons, and similar technologies to collect this data.
 
-## 3. How We Use Your Data
+### 3. How We Use Your Data
 
-### 3.1 Personal Information
+#### 3.1 Personal Information
 
 We use your personal information to operate, maintain, and enhance our services, including providing customer support, delivering requested features, and personalizing your experience. We may also use your information to communicate important updates, promotions, and offers, subject to your consent.
 
