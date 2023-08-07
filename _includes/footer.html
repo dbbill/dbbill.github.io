@@ -1,26 +1,21 @@
 <footer class="text-left p-4">
-    <div>
-        <ul class="list-inline social-buttons">
-            {% for network in site.social %}
-            <li class="p-1">
-                <a href="{{ network.url }}">
-                    <i class="fa-brands fa-{{ network.icon }} pr-2"></i>
-                    <span>{{ network.title }}</span>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <hr />
+    <ul class="list-inline social-buttons">
+        {% for network in site.social %}
+        <li class="p-1">
+            <a href="{{ network.url }}">
+                <i class="fa-brands fa-{{ network.icon }} pr-2"></i>
+                <span>{{ network.title }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
     <ul class="list-inline legal">
         <li>
-            <a class="font-weight-bold" href="/privacypolicy">Privacy Policy</a>
-            <a class="font-weight-bold" href="/termsandconditions">Terms & Conditions</a>
+            <a href="/privacypolicy">Privacy Policy</a>
+            <a href="/termsandconditions">Terms & Conditions</a>
         </li>
     </ul>
-    <div>
-        <span class="email">info@whissol.com</span>
-    </div>
+    <span class="email">info@whissol.com</span>
     <div class="pb-2">
         <span class="copyright">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
     </div>
