@@ -1,21 +1,21 @@
-<footer>
-    <div class="row justify-content-center p-2">
+<footer class="text-left pa-2">
+    <div>
         <span>
             <a class="font-weight-bold" href="/privacypolicy">Privacy Policy</a>
             <a class="font-weight-bold" href="/termsandconditions">Terms & Conditions</a>
         </span>
     </div>
-    <div class="row justify-content-center p-2">
+    <div>
         <ul class="list-inline social-buttons">
             {% for network in site.social %}
             <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
             {% endfor %}
         </ul>
     </div>
-    <div class="row justify-content-center p-2">
+    <div>
         <span class="email font-weight-bold">info@whissol.com</span>
     </div>
-    <div class="row justify-content-center">
+    <div>
         <span class="copyright font-weight-bold">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
     </div>
 </footer>
