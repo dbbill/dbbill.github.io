@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: legal
 ---
 
 #### Welcome to Whissol Limited’s privacy policy
