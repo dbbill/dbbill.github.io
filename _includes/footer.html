@@ -16,8 +16,8 @@
             {% for network in site.social %}
             <li class="p-1">
                 <a href="{{ network.url }}">
-                    <i class="fa-brands fa-{{ network.title }}"></i>
                     <span>{{ network.title }}</span>
+                    <i class="fa-brands fa-{{ network.icon }}"></i>
                 </a>
             </li>
             {% endfor %}
