@@ -1,23 +1,21 @@
 <footer>
-    <div class="container">
-        <div class="row justify-content-center p-2">
+    <div class="row justify-content-center p-2">
+        <span>
             <a class="font-weight-bold" href="/privacypolicy">Privacy Policy</a>
-        </div>
-        <div class="row justify-content-center p-2">
             <a class="font-weight-bold" href="/termsandconditions">Terms & Conditions</a>
-        </div>
-        <div class="row justify-content-center p-2">
-            <ul class="list-inline social-buttons">
-                {% for network in site.social %}
-                <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="row justify-content-center p-2">
-            <span class="email font-weight-bold">info@whissol.com</span>
-        </div>
-        <div class="row justify-content-center">
-            <span class="copyright font-weight-bold">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
-        </div>
+        </span>
+    </div>
+    <div class="row justify-content-center p-2">
+        <ul class="list-inline social-buttons">
+            {% for network in site.social %}
+            <li class="p-1"><a href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="row justify-content-center p-2">
+        <span class="email font-weight-bold">info@whissol.com</span>
+    </div>
+    <div class="row justify-content-center">
+        <span class="copyright font-weight-bold">Copyright &copy; {{ site.title }} Limited {{ 'now' | date: "%Y" }}</span>
     </div>
 </footer>
