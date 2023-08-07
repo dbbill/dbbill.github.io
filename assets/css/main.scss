@@ -293,6 +293,23 @@ ul.social-buttons li a:active {
     color: white;
 }
 
+ul.legal {
+    margin-bottom: 0;
+    display: flex;
+}
+
+ul.legal li a {
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 0.25rem;
+    color: $secondary;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-size: 1rem;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
