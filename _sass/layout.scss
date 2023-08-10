@@ -1,0 +1,524 @@
+.container {
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 7rem;
+	padding-right: 7rem;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 1rem;
+	grid-row-gap: 4rem;
+
+	@media only screen and (max-width: 992px) {
+
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		grid-template-columns: 1;
+		grid-column-gap: 0;
+		grid-row-gap: 2rem;
+		
+	}
+
+	&.homeContainer {
+		grid-template-rows: 82rem auto auto auto;
+		grid-template-areas: 
+			"p p p p p p i i i i i i"
+			"d d d d d d d d d d d d"
+			"c c c c c c c c c c c c"
+			"r r r r r r r r r r r r"
+			"f f f f f f f f f f f f";
+
+		@media only screen and (max-width: 992px) {
+
+			grid-template-rows: auto 65rem auto auto auto auto;
+			grid-template-areas: 
+				"i i i i i i i i i i i i"
+				"p p p p p p p p p p p p"
+				"d d d d d d d d d d d d"
+				"c c c c c c c c c c c c"
+				"r r r r r r r r r r r r"
+				"f f f f f f f f f f f f";
+
+		}
+	}
+
+	.page {
+		margin-top: 8rem;
+		grid-column: 2/12;
+
+		@media only screen and (max-width: 768px) {
+
+			margin-top: 2rem;
+			grid-column: 1/-1;
+		
+		} 
+	
+		header {
+			grid-area: h;
+			display: flex;
+			padding-bottom: 1rem;
+	
+			.logo {
+				display: flex;
+				gap: 1.5rem;
+				justify-content: flex-start;
+				align-items: center;
+				height: 8rem;
+	
+				a {
+					display: flex;
+
+					.headerIcon {
+						width: 5rem;
+						height: 5rem;
+						-webkit-clip-path: url(#shape);
+						clip-path: url(#shape);
+					}
+				}
+	
+				.headerName {
+					color: $header-title-color;
+					white-space: nowrap;
+					display: flex;
+					flex-direction: column;
+					font-weight: bold;
+					
+					h2, h5 {
+						margin-bottom: 0 !important;
+						margin-top: 0 !important;
+						padding-bottom: 0 !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+.scroll {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+
+	height: 11.5rem;
+
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+
+	@media only screen and (max-width: 768px) {
+
+		height: 8rem;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+		margin-top: -6rem;
+		justify-content: flex-start;
+		
+	} 
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.appIconShadow {
+	display: flex;
+	filter: $drop-shadow;
+}
+
+.appInfo {
+	grid-area: i;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	padding-top: 4rem;
+	justify-content: center;
+
+	@media only screen and (max-width: 992px) {
+
+		padding-top: 6rem;
+	
+	}
+
+	.appIconLarge {
+		width: 120px;
+		height: 120px;
+		-webkit-clip-path: url(#shape120);
+		clip-path: url(#shape120);
+	}
+
+	.appNamePriceContainer {
+		display: flex;
+		flex: 0 1 auto;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin-left: 0px;
+
+		.appName {
+			color: $app-title-color;
+			margin-top: 30px;
+			text-align: center;
+		}
+		
+		.appPrice {
+			color: $app-price-color;
+			font-weight: normal;
+			margin-top: 13px;
+			text-align: center;
+		}
+	}
+	
+	.appDescriptionContainer {
+		font-size: 2.5rem;
+		font-weight: normal;
+		width: 100%;
+		align-items: flex-start;
+		margin-top: 45px;
+		flex: 0 1 auto;
+		line-height: 1.5;
+
+		.appDescription {
+			color: $app-description-color;
+			text-align: center;
+		}
+	}
+
+	.downloadButtonsContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		margin-top: 42px;
+		filter: $drop-shadow;
+		text-align: center;
+
+		.appStore {
+			height: 75px;
+		}
+		
+		.playStore {
+			height: 75px;
+		}
+
+		.comingSoon {
+			background-color: $coming-soon-color;
+			color: #ffffff;
+			padding: 1rem 3rem;
+			padding-bottom: 1.25rem;
+			border-radius: 1rem;
+		}
+	}
+}
+
+.iphonePreview {
+	grid-area: p;
+	background-image: url($device-color);
+	background-size: 370px auto;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+
+	@media only screen and (max-width: 992px) {
+
+		display: flex;
+		background-size: 260px auto;
+		background-position: center 0;
+		justify-content: center;
+		
+	} 
+
+	.iphoneScreen {
+		width: 322px;
+		-webkit-clip-path: url(#screenMask);
+		clip-path: url(#screenMask);
+		margin-left: 24px;
+		margin-top: 22px;
+
+		@media only screen and (max-width: 992px) {
+
+			width: 226px;
+			height: 488px;
+			-webkit-clip-path: url(#screenMask);
+			clip-path: url(#screenMask);
+			margin: 0px;
+			margin-top: 17px;
+
+		}
+	}
+	
+	.videoContainer {
+		width: 322px;
+		height: 698px;
+		-webkit-clip-path: url(#screenMask);
+		clip-path: url(#screenMask);
+		margin-left: 24px;
+		margin-top: 22px;
+
+		@media only screen and (max-width: 992px) {
+
+			width: 226px;
+			height: 488px;
+			margin-left: 0px;
+			margin-top: 17px;
+
+		}
+
+		> video {
+			width: 322px;
+			height: 698px;
+
+			@media only screen and (max-width: 992px) {
+
+				width: 226px;
+				height: 488px;
+
+			}
+		}
+	}
+}
+
+.descriptionContainer {
+	grid-area: d;
+	margin-top: 2rem;
+	display: grid;
+	grid-column: -3/3;
+	grid-row-gap: 2rem;
+	grid-template-rows: auto auto;
+
+	@media only screen and (max-width: 992px) { 
+		margin-top: 0;
+		grid-column: -2/2;
+	}
+
+	@media only screen and (max-width: 768px) { 
+		grid-column: -1/1;
+	}
+
+	.descriptionHeading {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.description {
+		text-align: justify;
+		text-align-last: center;
+	
+		> h3 {
+			color: $feature-title-color;
+		}
+	}
+
+}
+
+.featuresContainer {
+	grid-area: c;
+	display: grid;
+	grid-row-gap: 4rem;
+	grid-template-rows: auto auto;
+
+	@media only screen and (max-width: 992px) {
+
+		grid-row-gap: 2rem;
+
+	}
+	
+	.featuresHeading {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.features {
+		display: grid;
+		grid-row-gap: 4rem;
+		grid-column-gap: 3rem;
+		grid-template-columns: repeat(6, 1fr);
+			
+		@media only screen and (max-width: 992px) {
+
+			margin-top: 1rem;
+			grid-template-columns: repeat(4, 1fr);
+
+		}
+
+		@media only screen and (max-width: 768px) {
+
+			grid-template-columns: repeat(2, 1fr);
+			
+		} 
+
+		.feature {
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			grid-column: span 2;
+
+			@media only screen and (min-width: 992px) {
+
+				&:last-child:nth-child(3n+1) {
+					grid-column-end: 5;
+				}
+
+				&:last-child:nth-child(3n - 1) {
+					grid-column-end: -2;
+				}
+				
+				&:nth-last-child(2):nth-child(3n + 1) {
+					grid-column-end: 4;
+				}
+
+			}
+
+			@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+				&:last-child:nth-child(2n+1) {
+					grid-column-end: -2;
+				}
+
+			}
+
+			.featureIcon {
+				display: flex;
+				justify-content: center;
+
+				.iconBack {
+					color: $feature-icons-background-color;
+				}
+				
+				.iconTop {
+					color: $feature-icons-foreground-color;
+				}
+			}
+
+			.featureText {
+				text-align: center;
+			
+				> h3 {
+					color: $feature-title-color;
+				}
+				
+				> p {
+					color: $feature-text-color;
+					margin-top: 0.5rem;
+					line-height: 1.5;
+				}
+			}
+		}
+	}
+
+}
+
+.rulesContainer {
+	grid-area: r;
+	display: grid;
+	grid-column: -3/3;
+	grid-row-gap: 2rem;
+	grid-template-rows: auto auto auto auto auto;
+	text-align: center;
+
+	@media only screen and (max-width: 992px) { 
+		grid-column: -2/2;
+		grid-row-gap: 2rem;
+	}
+
+	@media only screen and (max-width: 768px) { 
+		grid-column: -1/1;
+	}
+
+	.rulesHeading {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.rulesConcept {
+		font-weight: bold;
+	}
+
+	.rules {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		gap: 2rem;
+
+		.rule {
+			display: flex;
+			flex-direction: row;
+			justify-items: center;
+			align-items: center;
+			gap: 1.5rem;
+
+			.ruleIcon {
+				display: flex;
+				justify-content: center;
+
+				.iconBack {
+					color: $rule-icons-background-color;
+				}
+				
+				.iconTop {
+					color: $rule-icons-foreground-color;
+				}
+			}
+
+			.ruleText {
+				text-align: justify;
+			
+				> p {
+					margin-top: 0.5rem;
+					line-height: 1.5;
+				}
+			}
+
+		}
+	}
+
+}
+
+footer {
+	grid-area: f;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+	.footerText {
+		color: $footer-text-color;
+		display: block;
+		line-height: 1.5;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.footerIcons {
+		display: flex;
+		flex: 0 0 100%;
+		justify-content: center;
+
+		.socialIconBack {
+			color: $social-icons-background-color;
+		}
+		
+		.socialIconTop {
+			color: $social-icons-foreground-color;
+		}
+	}
+	
+	.footerLinks {
+		display: flex;
+		gap: 3rem;
+		text-align: center;
+
+		@media only screen and (max-width: 768px) {
+	
+			flex-direction: column;
+			gap: 2rem;
+
+		}
+	}
+}
+
+.hidden {
+	display: none;
+}

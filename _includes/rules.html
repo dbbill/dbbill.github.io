@@ -1,0 +1,27 @@
+<div class="rulesContainer">
+    
+    <h1 class="rulesHeading">Tournament Rules</h1>
+    <p>The general concept is simple</p>
+    <p class="rulesConcept">Players must pick a team in each round until they are eliminated</p>
+    <p>However, we'll implement some rules so that every tournament is fair, transparent, and easy to play</p>
+    <ul class="rules">
+        {% for rule in site.rules %}
+
+        {% if rule.description %}
+        <li class="rule">
+            <div class="ruleIcon">
+                <span class="fa-stack fa-1x">
+                    <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                    <i class="iconTop fas fa-{{ rule.fontawesome_icon_name }} fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="ruleText">
+                {{ rule.description }}
+            </div>
+        </li>
+        {% endif %}
+
+        {% endfor %}
+    </ul>
+
+</div>

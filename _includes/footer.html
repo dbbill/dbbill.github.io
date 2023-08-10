@@ -1,26 +1,41 @@
-<footer class="text-left p-4">
-    <ul class="list-inline social-buttons pb-3">
-        {% for network in site.social %}
-        <li>
-            <a href="{{ network.url }}">
-                <i class="fa-brands fa-{{ network.icon }} pr-3"></i>
-                <span>{{ network.title }}</span>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-    <ul class="list-inline legal pb-3">
-        <li>
-            <a href="/privacypolicy">Privacy Policy</a>
-            <a href="/termsandconditions">Terms & Conditions</a>
-        </li>
-    </ul>
-    <span class="email">
-        <i class="fa-solid fa-envelope pr-3"></i>
-        <span>info@whissol.com</span>
-    </span>
-    <div class="copyright pb-2">
-        <i class="fa-regular fa-copyright pr-3"></i>
-        <span>{{ 'now' | date: "%Y" }} {{ site.title }} Limited</span>
-    </div>
+<footer>
+	<div class="footerText">
+		<i class="far fa-copyright pr-3"></i>
+		<span>{{ 'now' | date: "%Y" }} {{ site.app_name }} Limited</span>
+	</div>
+	<div class="footerIcons">
+
+		{% if site.twitter_username %}
+		<a href="https://twitter.com/{{ site.twitter_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+		{% if site.facebook_username %}
+		<a href="https://facebook.com/{{ site.facebook_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fa-solid fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fa-brands fa-facebook fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+		{% if site.email_address %}
+		<a href="mailto:{{ site.email_address }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+	</div>
+	<div class="footerLinks">
+		{% for page in site.pages %}
+		<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+		{% endfor %}
+	</div>
 </footer>
