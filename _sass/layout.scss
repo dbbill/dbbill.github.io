@@ -301,8 +301,7 @@
 	}
 
 	.description {
-		text-align: justify;
-		text-align-last: center;
+		text-align: center;
 	
 		> h3 {
 			color: $feature-title-color;
@@ -438,14 +437,15 @@
 		display: flex;
 		flex-direction: column;
 		list-style: none;
-		gap: 2rem;
+		gap: 3rem;
 
 		.rule {
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			justify-items: center;
 			align-items: center;
 			gap: 1.5rem;
+			text-align: center;
 
 			.ruleIcon {
 				display: flex;
@@ -460,13 +460,8 @@
 				}
 			}
 
-			.ruleText {
-				text-align: justify;
-			
-				> p {
-					margin-top: 0.5rem;
-					line-height: 1.5;
-				}
+			.ruleTitle {
+				font-weight: bold;
 			}
 
 		}

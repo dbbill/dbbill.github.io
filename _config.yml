@@ -83,21 +83,29 @@ feature_icons_background_color            : "#04113b"
 rules_summary                             : Players must pick a team in each round until they are eliminated
 rules                                     :
 
-  - description                           : A player will be eliminated from a tournament when one of their picked teams loses or draws
+  - title                                 : Eliminated?
+    description                           : A player will be eliminated from a tournament when one of their picked teams loses or draws
     fontawesome_icon_name                 : close
-  - description                           : A tournament ends when, at the end of a round, all but one player has been eliminated or if all players have been eliminated
+  - title                                 : Winner?
+    description                           : A tournament ends when, at the end of a round, all but one player has been eliminated or if all players have been eliminated
     fontawesome_icon_name                 : trophy
-  - description                           : If a fixture is postponed, abandoned, or cancelled, any player that picked one of the teams in that fixture will be given a bye and must pick two teams in the next round
+  - title                                 : Bye
+    description                           : If a fixture is postponed, abandoned, or cancelled, any player that picked one of the teams in that fixture will be given a bye and must pick two teams in the next round
     fontawesome_icon_name                 : arrow-right
-  - description                           : A player cannot choose the same team twice in a tournament
+  - title                                 : No Repeat Picks
+    description                           : A player cannot choose the same team twice in a tournament
     fontawesome_icon_name                 : repeat
-  - description                           : Players must pick their teams before the first kick off of the round
+  - title                                 : Pick Deadline
+    description                           : Players must pick their teams before the first kick off of the round
     fontawesome_icon_name                 : hourglass-end
-  - description                           : A player will be eliminated from the tournament if they forget to pick a team in a round
+  - title                                 : Unmade Picks
+    description                           : A player will be eliminated from the tournament if they forget to pick a team in a round
     fontawesome_icon_name                 : circle
-  - description                           : A player can change the team they have picked at any time before a round starts
+  - title                                 : Changing Your Pick
+    description                           : A player can change the team they have picked at any time before a round starts
     fontawesome_icon_name                 : right-left
-  - description                           : You will only be able to see which teams other players have picked once the round starts
+  - title                                 : Other Players
+    description                           : You will only be able to see which teams other players have picked once the round starts
     fontawesome_icon_name                 : eye
 
 rule_icons_foreground_color            : "#ffffff"
