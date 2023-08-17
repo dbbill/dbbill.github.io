@@ -45,19 +45,19 @@ features                                  :
       We'll automatically update results and manage who has been eliminated from a tournament.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Choose Round Days
+  - title                                 : Choose Days
     description                           : >
       Decide when a round takes place. 
       Select the days that you'd like to include and only fixtures taking place on those days will be added to the round.
     fontawesome_icon_name                 : calendar-days
 
-  - title                                 : Choose Round Leagues
+  - title                                 : Choose Leagues
     description                           : >
       Choose which leagues players can pick a team from. 
       Simply select the leagues that you'd like to include and only fixtures from those leagues will be added to the round.
     fontawesome_icon_name                 : list
 
-  - title                                 : Mutliple Leagues
+  - title                                 : Multiple Leagues
     description                           : >
       We've included leagues and competitions from around the world. Let us know if you'd like us to add another.
     fontawesome_icon_name                 : globe
