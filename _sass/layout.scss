@@ -19,7 +19,7 @@
 	}
 
 	&.homeContainer {
-		grid-template-rows: auto auto auto auto auto;
+		grid-template-rows: 100vh auto auto auto auto;
 		grid-template-areas: 
 			"i i i i i i i i i i i i"
 			"d d d d d d d d d d d d"
@@ -119,8 +119,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	padding-top: 12rem;
-	padding-bottom: 4rem;
 	justify-content: center;
 
 	@media only screen and (max-width: 992px) {
@@ -202,10 +200,9 @@
 
 .descriptionContainer {
 	grid-area: d;
-	margin-top: 2rem;
 	display: grid;
 	grid-column: -3/3;
-	grid-row-gap: 2rem;
+	grid-row-gap: 4rem;
 	grid-template-rows: auto auto;
 
 	@media only screen and (max-width: 992px) { 
@@ -219,7 +216,6 @@
 
 	.descriptionHeading {
 		text-align: center;
-		padding: 2rem;
 	}
 
 	.description {
@@ -246,7 +242,6 @@
 	
 	.featuresHeading {
 		text-align: center;
-		padding: 2rem;
 	}
 
 	.features {
@@ -333,7 +328,7 @@
 	grid-area: r;
 	display: grid;
 	grid-column: -3/3;
-	grid-row-gap: 2rem;
+	grid-row-gap: 4rem;
 	grid-template-rows: auto auto auto auto auto;
 	text-align: center;
 
@@ -348,7 +343,6 @@
 
 	.rulesHeading {
 		text-align: center;
-		padding: 2rem;
 	}
 
 	.rulesConcept {
