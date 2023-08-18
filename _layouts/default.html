@@ -39,8 +39,10 @@
                 {% if site.playstore_link != nil and site.playstore_link != '' %}
                     <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/images/stores/playstore.png"></a>
                 {% endif %}
-                {% if (site.appstore_link == nil or site.appstore_link == '') and (site.playstore_link == nil or site.playstore_link == '') %}
-                    <div class="comingSoon">Coming Soon</div>
+                {% if site.appstore_link == nil or site.appstore_link == '' %}
+                    {% if site.playstore_link == nil or site.playstore_link == '' %}
+                        <div class="comingSoon">Coming Soon</div>
+                    {% endif %}
                 {% endif %}
             </div>
         </div>
