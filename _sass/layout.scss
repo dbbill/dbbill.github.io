@@ -266,10 +266,6 @@
 			flex-direction: column;
 			gap: 1.5rem;
 			grid-column: span 2;
-			border: solid 1px;
-			border-color: $feature-icons-background-color;
-			border-radius: 4rem;
-			padding: 3rem;
 
 			@media only screen and (min-width: 992px) {
 
@@ -364,10 +360,6 @@
 			align-items: center;
 			gap: 1.5rem;
 			text-align: center;
-			border: solid 1px;
-			border-color: $feature-icons-background-color;
-			border-radius: 4rem;
-			padding: 3rem;
 
 			.ruleIcon {
 				display: flex;
