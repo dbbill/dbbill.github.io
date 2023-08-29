@@ -55,7 +55,7 @@ We do not share your personal information obtained from third-party sources with
 
 Your personal information may be used by third-party tools to serve advertisements across our Services.
 
-If you would prefer your personal information wasn't used to show you personalised advertisements, you can revoke your consent at any time by visting the settings page in our mobile app and navigating to the 'Privacy Controls' section.
+If you are a user in the European Economic Area (EEA) or the United Kingdom (UK) and you would prefer your personal information wasn't used to show you personalised advertisements, you can revoke your consent at any time by visting the settings page in our mobile app and navigating to the 'Privacy Controls' section.
 
 ##### 5.1 Google Admob
 
