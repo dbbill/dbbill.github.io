@@ -57,7 +57,7 @@ Third-party tools may use your personal information to serve advertisements acro
 
 ##### 5.1 Google Admob
 
-Google Admob serves advertisements in our mobile app. For more information about Admob and how they collect information, please visit https://policies.google.com/technologies/partner-sites.
+Google Admob serves advertisements in our mobile app. For more information about Admob and how they collect information, please visit this [page](https://policies.google.com/technologies/partner-sites).
 
 #### 6. Why We Need to Use Your Personal Data
 
