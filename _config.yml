@@ -9,8 +9,8 @@ app_name                                  : Whissol
 app_price                                 : Free
 app_description                           : Play against your friends in sports knockout tournaments
 
-appstore_link                             : 
-playstore_link                            : 
+appstore_link                             : https://apps.apple.com/gb/app/whissol/id6448995243
+playstore_link                            : https://play.google.com/store/apps/details?id=com.whissol.app
 
 device_color                              : blue
 
