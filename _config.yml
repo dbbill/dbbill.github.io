@@ -7,7 +7,7 @@ body_background_color                     : "#ffffff"
 app_icon                                  : assets/images/icon.png
 app_name                                  : Whissol
 app_price                                 : Free
-app_description                           : Play against your friends in sports knockout tournaments
+app_description                           : The Last Man Standing App
 
 appstore_link                             : https://apps.apple.com/gb/app/whissol/id6448995243
 playstore_link                            : https://play.google.com/store/apps/details?id=com.whissol.app
