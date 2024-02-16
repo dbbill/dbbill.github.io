@@ -61,16 +61,16 @@ features                                  :
     description                           : >
       We've included leagues and competitions from around the world. Let us know if you'd like us to add another.
     fontawesome_icon_name                 : globe
-  
-  - title                                 : Multiple Sports (Coming Soon)
-    description                           : >
-      We'll be including more sports in future versions. Let us know if there is a particular sport you'd like to see included.
-    fontawesome_icon_name                 : layer-group
 
   - title                                 : Push Notifications
     description                           : >
       We'll send you updates and reminders via push notifications.
     fontawesome_icon_name                 : bell
+  
+  - title                                 : Multiple Sports (Coming Soon)
+    description                           : >
+      We'll be including more sports in future versions. Let us know if there is a particular sport you'd like to see included.
+    fontawesome_icon_name                 : layer-group
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
