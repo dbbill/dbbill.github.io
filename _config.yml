@@ -22,7 +22,7 @@ coming_soon_color                         : "#04113b"
 # Description
 
 description: >
-  Whissol is a fun and easy way to compete against your friends in "last man standing" style tournaments. 
+  Whissol is a fun and easy way to play against your friends in the classic "last man standing" game. 
   We've given you complete control so that you can run every tournament in a way that suits your group of friends. 
   It's incredibly simple to play and manage!
 
@@ -67,9 +67,9 @@ features                                  :
       We'll be including more sports in future versions. Let us know if there is a particular sport you'd like to see included.
     fontawesome_icon_name                 : layer-group
 
-  - title                                 : Push Notifications (Coming Soon)
+  - title                                 : Push Notifications
     description                           : >
-      We'll send you updates and reminders via push notifications (you'll be able to turn these off in your settings).
+      We'll send you updates and reminders via push notifications.
     fontawesome_icon_name                 : bell
 
 feature_title_color                       : "#000000"
