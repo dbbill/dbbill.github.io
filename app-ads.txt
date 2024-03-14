@@ -13,6 +13,7 @@ rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
 freewheel.tv, 20393, RESELLER
 freewheel.tv, 24377, RESELLER
 
+# Liftoff/Vungle
 vungle.com,65ee1baa17069f0011a3d77c,DIRECT,c107d686becd2d77
 152media.info,152M312,RESELLER
 Adform.com,2742,RESELLER
